@@ -1,0 +1,15 @@
+[package]
+name = "shared_alloc"
+version = "0.1.0"
+authors = ["Pierre Avital <pierre.avital@me.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+panic-abort = "0.3.1"
+panic-semihosting = "0.5.2"
+typenum = "1.10.0"
+
+[lib]
+crate-type = ["staticlib"]
